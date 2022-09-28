@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE WEB PAGE</title>
+</head>
+
+<body>
+    <main style="margin-left: 20%;">
+       
+            <header style="display:flex;width: 70%; height: 50px; background-color: rgb(202, 191, 191);">
+                <!--Personal information-->
+                <nav style="display: flex; justify-content:flex-start; margin-left: 20px;">
+                    <a href="simple web pages.html"
+                        style="text-decoration: none; font-size: 25px; color: black; padding: 5px; margin-left: 20px;">Home</a>
+                    <a href="simple web pages.html"
+                        style="text-decoration: none; font-size: 25px; color: black; padding: 5px; margin-left: 20px;">About</a>
+                    <a href="hicoders_form.html"
+                        style="text-decoration: none; font-size: 25px; color: black; padding: 5px; margin-left: 20px;">Contact</a>
+                </nav>
+            </header>
+            <section style="background-color: silver;  width: 65%; padding: 10px; margin: 20px; ">
+                <h1>The HiCoders welcomes you!</h1>
+                <p style="font-size: 20px;">We are expericentedsoftware engineers.We voluntarily help people who are
+                    interested in IT and run varicus courses for this purpose. If you are interested in our course, do
+                    not hesitate to contact us!</p>
+            </section>
+            <section style="background-color: silver; width: 65%; margin: 20px; padding: 10px; display:flex; justify-content:center">
+                <fieldset>
+                    <legend>
+                        <h1>Personal Information</h1>
+                    </legend>
+                    <form action="https://HiCoders.ch" style="padding: 30px;">
+                        <div class="name">
+                            <label for="firstname" style="font-size: 22px;"> Firstname</label><br><br>
+                            <input id="firstname" type="text" style="width: 20%; height: 27px;"
+                                placeholder="Please enter your firstname"><br><br>
+                        </div>
+                        <div class="lname">
+                            <label for="lastname" style="font-size: 22px;">Lastname</label><br><br>
+                            <input id="lastname" type="text" style="width: 20%; height: 27px;"
+                                placeholder="Please enter your lastname"><br><br>
+                        </div>
+                        <div class="email">
+                            <label for="email" style="font-size: 22px;"> Email</label><br><br>
+                            <input id="email" type="email" style="width: 20%; height: 27px;"
+                                placeholder="Please enter your email"><br><br>
+                        </div>
+                        <div class="gender">
+                            <label for="gender" style="font-size: 22px;">Gender</label><br><br>
+                            <input type="radio" name="Gender" style="font-size: 20px;">Female<br><br>
+                            <input type="radio" name="Gender" style="font-size: 20px;">Male<br><br>
+                        </div>
+                        <div class="tel">
+                            <label for="phone" style="font-size: 22px;">Phone</label><br><br>
+                            <input id="phone" type="tel" style="width: 20%; height: 27px;"
+                                placeholder="(_ _ _) _ _ _  _ _  _ _"><br><br>
+                        </div>
+                        <div>
+                            <label for="graduation" style="font-size: 22px;">Graduation
+                                <select style="width: 12%;">
+                                    <option value="phD.">phD.</option>
+                                    <option value="Master">Master</option>
+                                    <option value="bachelor">Bachelor</option>
+                                    <option value="association">Association</option>
+                                </select>
+                            </label><br><br>
+                        </div>
+                        <div>
+                            <label style="font-size: 22px;"> What do you expect from this course?</label><br><br>
+                            <textarea id="expect" name="expect" rows="6" cols="50"></textarea><br><br>
+                        </div>
+                        <div>
+                            <label style="font-size: 22px;"> What do you want to learn programmng?</label><br><br>
+                            <textarea id="learn" name="learn" rows="6" cols="50"></textarea>
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+            <section style="background-color: silver; display:flex; justify-content:center; width: 65%; margin: 20px; padding: 10px;">
+                <fieldset>
+                    <legend>
+                        <h1>Family Members</h1>
+                    </legend>
+                    <div>
+                        <label for="members" style="font-size: 22px;">Are you married?</label><br><br>
+                        <input type="radio" name="status"> Yes<br><br>
+                        <input type="radio" name="status"> No<br><br>
+                    </div>
+                    <div>
+                        <label style="font-size: 22px;">If you married,how many child do you have? </label><br><br>
+                        <input id="child" type="text" style="width: 20%; height: 27px;"
+                            placeholder="Enter number of children">
+                    </div>
+                </fieldset>
+            </section>
+            <section style="background-color: silver; display:flex; justify-content:center; width: 65%; margin: 20px; padding: 10px; display:flex; justify-content:center">
+                <fieldset>
+                    <legend>
+                        <h1>Confirmation and Application</h1>
+                    </legend>
+                    <div>
+                        <label style="font-size: 22px;">Which ones are you familiar with?</label><br><br>
+                        <input type="checkbox">HTML<br><br>
+                        <input type="checkbox">SCC<br><br>
+                        <input type="checkbox">Bootstrap<br><br>
+                        <input type="checkbox">JavaScript<br><br>
+                        <input type="checkbox">NodeJS<br><br>
+                        <input type="checkbox">ReactJS<br><br>
+                        <label>Add your CV</label><br><br>
+                        <input id="cv" type="file"><br><br>
+                    </div>
+                    <div>
+                        <input type="checkbox">Please confirm by ticking the box after reading the
+                        <a href="privacy terms and conditins">privacy terms and conditions</a>!</input><br><br>
+                        <button type="button">Submit</button>
+                    </div>
+                </fieldset>
+            </section>
+            <footer style="background: silver; width: 65%; margin: 20px; padding: 10px;">
+                <div style="padding: 20px; margin-left: 20%;">
+                    <h1>Our Course Plases</h1>
+                    <ul>
+                        <li style="font-size: 22px;">Web Fundamentals</li>
+                        <li style="font-size: 22px;">Web Programming</li>
+                        <li style="font-size: 22px;">Fullstack Web Programming</li>
+                        <li style="font-size: 22px;">Capstone Project</li>
+                    </ul>
+                </div>
+                <div style="padding: 20px; margin-left: 20%;">
+                    <h1>Contact</h1>
+                    <pre>&#9993 <a href="mailto:info@hicoders.ch" style="font-size: 20px; text-decoration: none;">info@hicoders.ch</a></pre>
+                    <pre>&#9742 <a href="tel:+4100901010" style="font-size: 20px; text-decoration: none;">+41009001010</a></pre>
+                    <pre><address style="font-size: 20px; font-style: normal;"> &#9674 Schaffhauserstrasse 470,8052 Zurich</address></pre>
+                </div>
+            </footer>
+       
+    </main>
+</body>
+
+</html>
